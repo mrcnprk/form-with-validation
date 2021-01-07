@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formBox{
+    width: 600px;
+    border: 2px solid #e1e1e1;
+    margin: 0 auto;
+}
+
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px
+}
+
+.form .errorSection {
+    height: 200px;
+    color: red
+}
+
+.form button {
+    height: 20px;
+    width: 90px;
+    align-self: flex-end;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #e1e1e1a6;
+}
+
+.form section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.form section span {
+    line-height: 20px;
+}
